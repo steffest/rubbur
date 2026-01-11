@@ -1,0 +1,35 @@
+FROM LIB:c.o
+main.o
+framework/math.o
+framework/system.o
+framework/input.o
+framework/loader.o
+framework/screen.o
+framework/bitplane.o
+framework/display.o
+framework/blitter.o
+framework/copper.o
+framework/sprite.o
+framework/palette.o
+framework/modPlay.o
+framework/assetManager.o
+framework/ptPlayer/ptPlayer.o
+framework/cranker/cranker.o
+framework/cranker/decruncher.o
+framework/effect_screenzoom.o
+framework/support/gcc8_c_support.o
+parts/dude.o
+parts/dude2.o
+parts/dancer.o
+parts/dancer2.o
+parts/intro.o
+parts/walker.o
+parts/oldman.o
+parts/plasma.o
+parts/sequencer.o
+parts/credits.o
+parts/credits2.o
+parts/plasma_asm.o
+parts/outro.o
+TO a
+LIB LIB:sc.lib LIB:amiga.lib

@@ -1,0 +1,7 @@
+LAB loop
+IF EXISTS run.flag
+   DELETE run.flag
+   a
+ENDIF
+WAIT 1 SEC
+SKIP loop BACK
