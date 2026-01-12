@@ -34,12 +34,12 @@ The mod is included in the "release" folder. I use [SplitMod](https://aminet.net
 
 # Things I learned
 
-- how to flip an image horizontally using the blitter
+- how to flip an image horizontally using code
 - how to use functions in assembler to speed up operations and call them from C
 - how to scroll a screen horizontally
 - how to use vamos to run the SAS/C compiler on osX and windows
 - I moved from shrinkler to cranker for compression. Shrinkler compresses better, but cranker is faster to decompress.
-- in the end, I avoided compression alltogether. If all assets fit on a single floppy, it's simpeler and visually nicer to keep them uncompressed.
+- in the end, I avoided compression alltogether. If all assets fit on a single floppy, it's simpeler and visualy nicer to keep them uncompressed.
 - another thing I figured out but did't use, was how to use the assembler INCBIN thing to include binary data in the executable. Good to know if I ever want a single file demo. For now, the approach to have a light startup exe to display a loading screen and post-load the data is fine.
 
 # Things I want/need to improve in future productions
